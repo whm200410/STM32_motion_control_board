@@ -9,3 +9,7 @@ It uses PWM and DMA to do motion profile calculation at runtime.
 It lacks of comment in the source code.
 
 lwip is ported as TCP/IP stack, it didn't run any RTOS considering the RAM/ROM usage.
+
+I also designed a SDK on windows PC aiming to manager the 4 axis resource including commands sending, waiting and querying.
+
+Each axis has independent thread in SDK.
