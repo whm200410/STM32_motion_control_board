@@ -7,3 +7,5 @@ One MCU controls 4 stepper motor, up to 8 board can be used simutanously, so a 3
 It uses PWM and DMA to do motion profile calculation at runtime.
 
 It lacks of comment in the source code.
+
+lwip is ported as TCP/IP stack, it didn't run any RTOS considering the RAM/ROM usage.
